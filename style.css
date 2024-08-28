@@ -1,0 +1,142 @@
+* {
+  margin: 1rem;
+  padding: 0;
+  font-family: "Jersey 10", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(21, 18, 18);
+}
+
+.header-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 0.1rem;
+}
+
+.again-text {
+  font-size: 3rem;
+  background-color: white;
+  border: 7px solid sandybrown;
+  border-radius: 1.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.description-text {
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+}
+
+.guess-the-number {
+  max-width: 1280px;
+  text-align: center;
+  font-size: 3.7rem;
+  margin: 0 auto;
+  color: white;
+  font-weight: 400;
+}
+
+.guess-number-box {
+  max-width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  margin: 2rem auto;
+  text-align: center;
+  background-color: white;
+}
+
+.guess {
+  color: black;
+  background-color: white;
+  font-size: 8.8rem;
+}
+
+.main {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10rem auto;
+  align-items: center;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.guess-box {
+  height: 4rem;
+  text-align: center;
+  font-weight: 900;
+  background-color: rgb(21, 18, 18);
+  border: 2px solid white;
+  color: white;
+  font-size: 4rem;
+  width: 200px;
+  height: 200px;
+}
+
+.check-box {
+  color: black;
+  background-color: white;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.guess-result {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.score,
+.highscore {
+  color: white;
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 808px) {
+  .description-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .header-main {
+    flex-direction: column;
+  }
+  .description-text {
+    font-size: 1.5rem;
+  }
+  .guess-the-number-text {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 457px) {
+  .description-text {
+    font-size: 1.1rem;
+  }
+  .guess-the-number-text {
+    font-size: 1.5rem;
+  }
+  .again-text {
+    font-size: 1.5rem;
+  }
+}

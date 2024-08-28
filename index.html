@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <header class="header-main">
+        <a href="#again" class="again-button">
+          <button class="again-text">AGAIN!!👍</button>
+        </a>
+
+        <div class="description">
+          <span class="description-text">BETWEEN 1 AND 20</span>
+        </div>
+      </header>
+    </div>
+
+    <div class="guess-the-number-container">
+      <div class="guess-the-number">
+        <span class="guess-the-number-text">GUESS MY NUMBER!!🔥</span>
+      </div>
+    </div>
+
+    <div class="guess-number-box-container">
+      <div class="guess-number-box">
+        <span class="guess">?</span>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="main">
+        <div class="main-left">
+          <form class="main-left">
+            <input type="number" class="guess-box" />
+            <button class="check-box" type="submit">Check!</button>
+          </form>
+        </div>
+
+        <div class="main-right">
+          <div class="guess-result">Start guessing....</div>
+          <div class="score">💯 Score: <span class="score-value">20</span></div>
+          <div class="highscore">
+            🎖️ Highest score: <span class="highscore-value"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
