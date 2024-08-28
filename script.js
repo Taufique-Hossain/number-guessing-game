@@ -3,6 +3,7 @@ let score = 20;
 
 const clickEvent = (e) => {
 
+  console.log("Hello")
   e.preventDefault();
   const guess = Number(document.querySelector(".guess-box").value);
   console.log(guess);
